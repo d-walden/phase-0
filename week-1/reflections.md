@@ -23,7 +23,7 @@ move a file or directory
 'cd'
 change directory
 
-'../''
+'../'
 parent directory (cd ../ =>moves you to parent directory)
 
 'touch'
@@ -46,3 +46,10 @@ read a manual page
 
 
 ## 1.4 Forking and Cloning
+To create a new repo, go to your GitHub profile and click on the “+” sign next to your avatar. Enter a name and select the options you would like for your new repo. Click “Create Repository” to finish creating your new repo.
+
+To fork a repo, open the desired repository in GitHub and click the “Fork” button. Select the desired destination of your fork to finish creating the new repo. To clone a repo, open the desired repo in GitHub and copy its unique url. Type “git clone <url\>” into your terminal to clone the repo to your computer.
+
+It is useful to fork a repository in order to create a copy of a repo on you own account. This allows you to make changes without affecting the master file. You can use this tool to contribute to group projects, or to take the project in a completely new direction.
+
+The main struggle for me was just figuring out what git and GitHub actually are. Now I can see that they are very useful tools that allow developers to keep track of changes made to repos, exchange repos, and collaborate on projects.
