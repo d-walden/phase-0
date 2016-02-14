@@ -9,46 +9,46 @@ A shell is a user interface that facilitates interaction with a computer’s ope
 
 The most challenging part of this material was trying to understand pipes and redirection. I have a general understanding of how to use these commands, but it will be helpful to see them used in other contexts. I was able to successfully use all the commands in the Crash Course Guide.
 
-Starting out, I think the most important commands will be 'pwd', 'ls' and 'cd'.
+Starting out, I think the most important commands will be `pwd`, `ls` and `cd`.
 
-'pwd'
+`pwd`
 Print working directory
 
-'ls'
+`ls`
 list directories
 
-'mv'
+`mv`
 move a file or directory
 
-'cd'
+`cd`
 change directory
 
-'../'
+`../`
 parent directory (cd ../ =>moves you to parent directory)
 
-'touch'
+`touch`
 create file (or update modification date)
 
-'mkdir'
+`mkdir`
 make directory
 
-'less'
+`less`
 page through a file (look at contents of file)
 
-'rmdir'
+`rmdir`
 remove empty directory
 
-'rm'
+`rm`
 remove file
 
-'help'
+`help`
 read a manual page
 
 
 ## 1.4 Forking and Cloning
 To create a new repo, go to your GitHub profile and click on the “+” sign next to your avatar. Enter a name and select the options you would like for your new repo. Click “Create Repository” to finish creating your new repo.
 
-To fork a repo, open the desired repository in GitHub and click the “Fork” button. Select the desired destination of your fork to finish creating the new repo. To clone a repo, open the desired repo in GitHub and copy its unique url. Type “git clone <url\>” into your terminal to clone the repo to your computer.
+To fork a repo, open the desired repository in GitHub and click the “Fork” button. Select the desired destination of your fork to finish creating the new repo. To clone a repo, open the desired repo in GitHub and copy its unique url. Type “git clone <url>” into your terminal to clone the repo to your computer.
 
 It is useful to fork a repository in order to create a copy of a repo on you own account. This allows you to make changes without affecting the master file. You can use this tool to contribute to group projects, or to take the project in a completely new direction.
 
