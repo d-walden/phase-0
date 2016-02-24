@@ -2,7 +2,7 @@
 
 + What are the 6 Phases of Web Design?
 
--- Information gathering
+⋅⋅* Information gathering
 -- Planning
 ..* Design
 ..* Development
