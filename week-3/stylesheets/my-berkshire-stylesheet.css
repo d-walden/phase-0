@@ -11,11 +11,113 @@ a:visited {
   color: #ff0000;
 }
 
+header {
+  text-align: center;
+}
+
+h3 {
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.top-margin {
+  margin: 0px 0px 0px 0px;
+}
+
+.big {
+  font-size: 32px;
+}
+
+#inc {
+  font-size: 13px;
+}
+
+.block {
+  display: block;
+}
+
+article {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding-bottom:2%;
+  margin-top: 2%;
+}
+
+.description {
+  font-size: 12px;
+  display: block;
+}
+
+/*
+section {
+  margin-top: 5%;
+}
+*/
+
+li {
+  margin-top: 30px;
+}
+
 #left {
-float: left;
+  float: left;
+  margin-left: 5%;
+  /*margin-top: -2%;*/
+  width: 45%;
 }
 
 #right {
-float: right;
+  margin-left: 50%;
+  width: 45%;
 }
 
+#geico {
+  text-align: center;
+  font-size: 10px;
+}
+
+#email {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  font-size: 12px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#copyright {
+  font-size: 12px;
+}
+
+/*
+footer {
+  margin-top: 5%;
+  display: block;
+}
+*/
+
+
+/*
+Reflection
+3.3
+- What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+It is important to properly define the relative path when linking an external file to an HTML file.
+
+- What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+It was difficult to get the positioning correct at first. There are many factors to take into consideration when adjusting the layout. The main challenge is learning the right syntax and commands. Classes and IDs came in handy during this challenge.
+
+- What CSS did you use to modify the element style (like size, color, etc.)
+
+I would start with a selector and then type the property and value. Common properties included font-size, font-weight and color. The typical format would look something like this:
+
+selector {
+  property: value;
+}
+
+- Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+I added many classes and IDs. I used IDs to style single HTML elements, and classes to style multiple elements.
+
+- When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+I think my code is cleaner because it uses CSS more effectively. Much of the original websit’e styling is programmed directly into the HTML file making it more difficult to read.
