@@ -1,0 +1,27 @@
+header {
+  margin-left: 5%;
+  width: 90%;
+  font-family: cursive;
+}
+
+/* create columns */
+.column-1 {
+  float: left;
+  margin-left: 5%;
+  width: 45%;
+  background-color: blue;
+  border: 2px solid blanchedalmond;
+}
+
+.column-2 {
+  margin-left: 50%;
+  width: 45%;
+  background-color: green;
+  border: 2px solid blanchedalmond;
+}
+
+footer {
+  clear: left;
+  margin-left: 5%;
+  margin-top: 2em;
+}
