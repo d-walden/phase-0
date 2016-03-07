@@ -11,16 +11,26 @@
 # If +list_of_nums+ is empty the method should return nil
 
 # Your Solution Below
+# def smallest_integer(list_of_nums)
+#   i = 0
+#   smallest = list_of_nums[i]
+#   while i < list_of_nums.length
+#     if smallest > list_of_nums[i]
+#       smallest = list_of_nums[i]
+#     end
+#     i += 1
+#   end
+
+#   p smallest
+
+# end
+
 def smallest_integer(list_of_nums)
-  i = 0
-  smallest = list_of_nums[i]
-  while i < list_of_nums.length
-    if smallest > list_of_nums[i]
-      smallest = list_of_nums[i]
+  smallest = list_of_nums[0]
+  list_of_nums.each do |num|
+    if smallest > num
+      smallest = num
     end
-    i += 1
   end
-
   p smallest
-
 end
