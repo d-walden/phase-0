@@ -48,7 +48,7 @@ output: hash of accountability groups
 # Refactor
 def groups(names)
   name_array = names.split(", ")
-  # name_array.shuffle!
+  name_array.shuffle!
   groups_hash = {}
   i = 0
   extra_length = name_array.length % 4
