@@ -13,6 +13,7 @@ For instance 4, 8, 9, 20 should give 8 as a result 8.5
 // sum array
 var oddLengthArray  = [1, 2, 3, 4, 5, 5, 7]
 var evenLengthArray = [4, 4, 5, 5, 6, 6, 6, 7]
+var scrambleArray = [6, 6, 5, 4, 4, 5, 7, 6]
 
 function sum(array){
 var total = 0;
@@ -40,17 +41,19 @@ mean(evenLengthArray)
 
 // median array
 function median(array){
-  if (array.length%2 != 0) {
-    var index = Math.floor(array.length/2);
-    var middle_number = array[index];
+  sorted_array = array.sort(function(a, b){return a-b});
+  if (sorted_array.length%2 != 0) {
+    var index = Math.floor(sorted_array.length/2);
+    var middle_number = sorted_array[index];
   } else {
-    var index1 = array.length/2;
+    var index1 = sorted_array.length/2;
     var index2 = index1 - 1;
-    var number1 = array[index1];
-    var number2 = array[index2];
+    var number1 = sorted_array[index1];
+    var number2 = sorted_array[index2];
     var middle_number = (number1 + number2)/2;
   }
   console.log(middle_number);
 }
 median(oddLengthArray)
 median(evenLengthArray)
+median(scrambleArray)
