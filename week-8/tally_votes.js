@@ -112,9 +112,8 @@ var officers = {
 for (var voter in votes) {
   for (var officer in votes[voter]) {
     if (isNaN(voteCount[officer][votes[voter][officer]]))
-      voteCount[officer][votes[voter][officer]] = 1;
-    else
-      voteCount[officer][votes[voter][officer]]++;
+      voteCount[officer][votes[voter][officer]] = 0;
+    voteCount[officer][votes[voter][officer]]++;
   }
 }
 
