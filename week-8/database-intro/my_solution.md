@@ -1,4 +1,5 @@
 1. Select all data for all states:
+
 SELECT * FROM states;
 
 2. Select all data for all regions:
