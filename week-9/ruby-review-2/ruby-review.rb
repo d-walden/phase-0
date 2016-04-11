@@ -1,7 +1,7 @@
 # OO Basics: Student
 
 
-# I worked on this challenge [by myself, with: Mila].
+# I worked on this challenge [with: Lyudmila Arinich].
 # This challenge took me [#] hours.
 
 
@@ -146,4 +146,14 @@ p binary_search(students, "Frank") == 2
 p binary_search(students, "NOT A STUDENT") == -1
 
 
+
 # Reflection
+
+# • What concepts did you review in this challenge?
+# In this challenge my pair and I reviewed object-oriented basics (composition and searching).
+
+# • What is still confusing to you about Ruby?
+# I still find attribute accessors a bit confusing.
+
+# • What are you going to study to get more prepared for Phase 1?
+# I’m going to learn more about when and how to use attribute accessors.
